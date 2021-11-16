@@ -1,0 +1,9 @@
+site_name: Modern Application Development Wiki
+site_url: https://onlinedegree.gitlab.io/mad1/course-wiki
+site_dir: public
+theme:
+  name: material
+
+markdown_extensions:
+  - meta
+  - fenced_code
