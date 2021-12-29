@@ -3,7 +3,35 @@ site_url: https://onlinedegree.gitlab.io/mad1/course-wiki
 site_dir: public
 theme:
   name: material
+  custom_dir: theme_overrides
+  features:
+    - header.autohide
+    - navigation.expand
+    - toc.integrate
+  palette: 
+    - scheme: red
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate 
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  logo: assets/logo.png
 
 markdown_extensions:
   - meta
   - fenced_code
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  generator: false
+  repo_url: https://github.com/squidfunk/mkdocs-material
+  edit_uri: edit/master/docs/
+  social:
+    - icon: fontawesome/brands/github
+      link: http://onlinedegree.iitm.ac.in
+      name: Github
+  copyright: Copyright &copy; 2021 - Creative Commons Attribution License

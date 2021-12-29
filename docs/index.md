@@ -1,17 +1,20 @@
-# Welcome to MkDocs
+# Welcome
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This is the wiki of Modern Application Development Course.
 
-## Commands
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## How to contribute
+We use [mkdocs.org](https://www.mkdocs.org) and [Material for MkDocs ](https://squidfunk.github.io/mkdocs-material/). You can check the respective site for more information
 
-## Project layout
+### Setup locally
+* Install mkdocs
+* Fork and Clone the git project
+* Go to the folder
+* Run `mkdocs serve` to start the live-reloading docs server
+* Open [http://localhost:8000](http://localhost:8000) to see the wiki locally
+* Go to `docs/` folder and edit the markdown content file or add more content
+* Check on the localhost url
+* If it looks okay. Then commit and send a merge request to be included
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Contact
+* Contact 
