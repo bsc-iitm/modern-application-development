@@ -18,20 +18,41 @@ theme:
         icon: material/weather-sunny
         name: Switch to light mode
   logo: assets/logo.png
-
-markdown_extensions:
-  - meta
-  - fenced_code
-
-extra_css:
-  - stylesheets/extra.css
-
+  icon:
+    repo: fontawesome/brands/gitlab  
 extra:
   generator: false
-  repo_url: https://github.com/squidfunk/mkdocs-material
-  edit_uri: edit/master/docs/
-  social:
-    - icon: fontawesome/brands/github
-      link: http://onlinedegree.iitm.ac.in
-      name: Github
-  copyright: Copyright &copy; 2021 - Creative Commons Attribution License
+extra_css:
+  - stylesheets/extra.css
+  - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/default.min.css
+
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js
+
+
+markdown_extensions:
+  - pymdownx.magiclink  
+  - meta
+  - pymdownx.highlight:
+      use_pygments: true  
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - tables
+  - footnotes
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.emoji
+
+repo_url: https://gitlab.com/onlinedegree/mad1/course-wiki/
+edit_uri: edit/master/docs/
+social:
+  - icon: fontawesome/brands/github
+    link: http://onlinedegree.iitm.ac.in
+    name: Github
+copyright: Copyright &copy; 2021 - Creative Commons Attribution License
+
+

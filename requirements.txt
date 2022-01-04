@@ -5,3 +5,4 @@ mkdocs>=1.1.2
 # (https://github.com/mkdocs/mkdocs/wiki/MkDocs-Themes)
 mkdocs-material>=5.4.0
 python-frontmatter
+pygments
