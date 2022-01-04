@@ -22,6 +22,11 @@ theme:
     repo: fontawesome/brands/gitlab  
 extra:
   generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: http://onlinedegree.iitm.ac.in
+      name: Github
+  
 extra_css:
   - stylesheets/extra.css
   - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/default.min.css
@@ -49,10 +54,6 @@ markdown_extensions:
 
 repo_url: https://gitlab.com/onlinedegree/mad1/course-wiki/
 edit_uri: edit/master/docs/
-social:
-  - icon: fontawesome/brands/github
-    link: http://onlinedegree.iitm.ac.in
-    name: Github
 copyright: Copyright &copy; 2021 - Creative Commons Attribution License
 
 
