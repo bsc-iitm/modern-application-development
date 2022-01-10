@@ -36,6 +36,8 @@ extra_javascript:
 
 
 markdown_extensions:
+  - admonition
+  - pymdownx.details
   - pymdownx.magiclink  
   - meta
   - pymdownx.highlight:

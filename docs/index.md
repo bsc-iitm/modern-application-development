@@ -2,6 +2,10 @@
 
 This is the wiki of Modern Application Development Course.
 
+???+ note
+
+    This is a wiki.  It's a live document and subject to continuous updates. 
+
 
 ## How to contribute
 We use [mkdocs.org](https://www.mkdocs.org) and [Material for MkDocs ](https://squidfunk.github.io/mkdocs-material/). You can check the respective site for more information
