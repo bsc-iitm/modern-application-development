@@ -8,16 +8,15 @@ This is the wiki of Modern Application Development Course.
 
 
 ## How to contribute
-- We use [mkdocs.org](https://www.mkdocs.org) and [Material for MkDocs ](https://squidfunk.github.io/mkdocs-material/). You can check the respective site for more information. 
-
-- We use merge requests to accept the changes or contributions. Check the steps below or follow the steps in the video.
+- We use [mkdocs.org](https://www.mkdocs.org) and [Material for MkDocs ](https://squidfunk.github.io/mkdocs-material/). You can check the respective site for more information
+- We use merge requests to accept the changes or contributions. Check the steps below or follow the steps in the video
 
 ### Steps
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/W3RO02IOzts" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-* Create an account on gitlab
-* Go to the repo page and fork
+* Create an account on [Gitlab](https://gitlab.com)
+* Go to the [repo page](https://gitlab.com/modern-application-development/course-wiki/) and fork
 * Clone the repo to your local computer
 * cd to the folder
 * Install everything inside requirements.txt
