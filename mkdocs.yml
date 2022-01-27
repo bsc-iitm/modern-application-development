@@ -54,4 +54,6 @@ repo_url: https://gitlab.com/modern-application-development/course-wiki/
 edit_uri: edit/master/docs/
 copyright: Copyright &copy; 2021 - Creative Commons Attribution License
 
-
+plugins:
+  - search
+  - git-authors

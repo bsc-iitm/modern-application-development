@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {{ super() }}
+
+  {% if git_page_authors %}
+    <div class="md-source-date">
+      <small>
+        {% if git_info %}
+        Authors(Git):
+          {%- for author in git_info.get('page_authors') -%}
+            {{ author.name }}
+          {%- endfor -%}
+        {% endif %}
+      </small>
+    </div>
+  {% endif %}
+{% endblock %}
