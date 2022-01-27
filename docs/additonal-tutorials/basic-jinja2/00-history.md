@@ -1,7 +1,6 @@
 ## What is Jinja2?
-Jinja is a templating engine for developers that uses the Python programming language as base. 
-- It's often referred to as "Jinja2". 
-- where 2 refers to its release version. In short Flask templating engine is called jinja.
+- Jinja is a templating engine for developers that uses the Python programming language as base.
+- It's often referred to as "Jinja2". where 2 refers to its release version. In short Flask templating engine is called jinja.
 
 ## History of Jinja2
 - The original library was created by Armin Ronacher in 2008. 
