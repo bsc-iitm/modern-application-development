@@ -1,7 +1,7 @@
 ## Templates 
 - Templates are functions with detailed API. 
-- These templates can generste any output not just HTML. 
-- {{variable_name}} is the syntax for calling a variable.
+- These templates can generste any kind of output. 
+- {{variable_name}} is the syntax for substituting value to a variable.
 - Below is an example of jinja2 templates. 
 
 ## python template code
@@ -46,4 +46,5 @@ print(j2_template.render(data))
 - course name MAD 2
 
 
-
+## Reference
+https://youtu.be/2_RC4n-Lb8M

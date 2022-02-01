@@ -1,10 +1,10 @@
 ## Filters 
-- Variables can be modified by filters. 
-- Filters are separated from the variable by a pipe symbol (|) and may have optional arguments in parentheses. 
-- Multiple filters can be chained. 
-- The output of one filter is applied as input to the next filter.
+- Values of the variables can be modified by filters. 
+- Pipe symbol is used for Filters to seperate the variable. 
+- single variable can have multiple filters. 
+- In multiple filters, the output of one filter is applied as input to the next filter.
 
-- Here's an example showing a simple filter in action:
+- Below example shows a single filter in action:
 
 ## Template:
 
@@ -21,7 +21,7 @@
 - As the name of the filter suggests, First charecter of the string is capitalized. 
 
 
-- In the below example name variable assigned to the data "mad1" is capitalized and the result is shown
+- The code for above example is given below
 
 ## python code with filters
 
@@ -46,6 +46,7 @@ print(j2_template.render(data))
 
 
 
-
+## Reference
+https://jinja.palletsprojects.com/en/2.10.x/templates/
 
 

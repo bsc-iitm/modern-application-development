@@ -1,31 +1,14 @@
 ## Variables 
-- Template variables are defined by the context dictionary passed to the template. 
-- {{ }} tells the template to print the value, this won't work in expressions like you're trying to do. 
-- Instead, use the {% set %} template tag and then assign the value the same way you would in normal python code. 
-- You can use a dot (.) to access attributes of a variable in addition to the standard Python “subscript” syntax ([]).
+- Template variables are defined by dictionary concept in python. 
+- {{variable_name }} is the syntax used by the template to print the value.  
+- Dot operator is used to access attributes of a variable.
 
 ## Example
 
 - {{ IITM.course1 }}
 - {{ IITM['course1'] }}
 
-## IITM.course1 in Jinja does the following things on the Python layer:
-
-- check for an attribute called course1 on IITM (getattr(IITM, 'course1'))
-
-- if there is not, check for an item 'course1' in IITM(IITM.__getitem__('course1'))
-
-- if there is not, return an undefined object.
-
-## IITM['course1'] works mostly the same with a small difference in sequence:
-
-- check for an item 'course1' in IITM. (IITM.__getitem__('course1'))
-
-- if there is not, check for an attribute called course1 on IITM. (getattr(IITM, 'course1'))
-
-- if there is not, return an undefined object.
-
-## By default, when encountering an evaluation statement with undefined variable Jinja will replace it with an empty string. 
+## If Jinja identifies an evaluation statement with an undefined variable, it will replace it with an empty string. 
 
 ## python variable code
 ```python linenums="1"
@@ -47,4 +30,6 @@ print(j2_template.render(data))
 ## Output 
 - Course MAD1 is available Programming course in the IITM datacenter.
 
+## Reference
 
+https://youtu.be/2_RC4n-Lb8M

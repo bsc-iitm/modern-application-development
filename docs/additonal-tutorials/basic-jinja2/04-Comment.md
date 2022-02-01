@@ -1,10 +1,10 @@
 ## Comments 
 - Comments are mostly used for documentation purpose. 
-- This shows you how to include comments in your templates. 
-- Generally templates should be self explanatory but comments come in handy when multiple people work on the same template. 
+- Comment lines are not executed by the python interpreter. 
+- Comments come in handy when multiple people work on the same template. 
 - You can also use comment syntax to disable parts of the template during debugging.
-- Comments are added using # ... # or single # syntax. 
-- That is anything between {# and #} is treated as a comment and will be ignored by the engine. 
+- Comments are added using hash tag # ... #. 
+- That is anything typed after # is treated as a comment line and it will be ignored by the engine. 
 - An example with comment lines are shown below 
 
 ## python code with comments
@@ -39,6 +39,7 @@ print(j2_template.render(data))
 - course name MAD 1 
 - course name MAD 2
 
-
+## Reference
+https://youtu.be/2_RC4n-Lb8M
 
 

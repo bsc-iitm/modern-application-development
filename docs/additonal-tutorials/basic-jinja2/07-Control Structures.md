@@ -8,10 +8,10 @@
 - jinja2 conditional statement is represented as if statement. 
 - For multi branching we can use elif and else for ending the if statement.
 
-## Comparision operators 
-- ==, !=, >, >=, <, <= are the operators used for comparision statements. 
+## Comparison operators 
+- ==, !=, >, >=, <, <= are the operators used for comparison statements. 
 - They are represented as binary operators. 
-- Because for comparision minimum two variables or operands required. 
+- Because for comparison minimum two variables or operands required. 
 - For example, if a>=b: in this statement a and b are compared.
 - If the condition is true the the statement inside if will be executed. 
 - If the condition is false then, any elif statements are there that statements will be analyzed. 
@@ -115,3 +115,6 @@ print(j2_template.render(data))
 ```
 ## Output
 - 1  2  3  4  five
+
+## Reference
+https://jinja.palletsprojects.com/en/2.10.x/templates/

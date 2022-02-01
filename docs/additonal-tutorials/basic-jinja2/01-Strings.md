@@ -1,5 +1,5 @@
 ## Strings
-- Any values given with in double quotes (" ") are represented as string values. 
+- Any values given with in double quotes are represented as string values. Eg. "welcome"
 - Below code is an example for assigning string values to the variables. 
 - Any words preceeded by '$' symbol is substituted with the same named variables. 
 - In python the data type of variable changed based on the values assigned. 
@@ -18,3 +18,5 @@ print(s)
 - Rovan is the Manager of IITM
 
 
+## Reference
+https://youtu.be/2_RC4n-Lb8M

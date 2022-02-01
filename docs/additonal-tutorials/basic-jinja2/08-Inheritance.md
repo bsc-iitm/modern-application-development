@@ -1,7 +1,8 @@
 ## Inheritance 
-- The most powerful part of Jinja is template inheritance. 
-- Template inheritance allows you to build a base “skeleton” template that contains all the common elements of your choice and defines blocks that child templates can override. 
-- A simple example is given in Replit website - https://tempinh.devir5.repl.co. 
+- The most important part of Jinja is template inheritance. 
+- Template inheritance permits you to build a base template that contains all the common items of your wish.
+- Next you can define blocks named child templates that can override the base template. 
+. 
 ## The following programs specify how it executes:
 - create main.py and create a folder templates. 
 - Within templates folder create base.html (base class) and index.html(derived class).
@@ -67,12 +68,5 @@ app.run(host = "0.0.0.0", port = "8080")
 </html>
 ```
 ## Output
--  https://tempinh.devir5.repl.co
 
-
-
-
-
-
-
-
+![title](Images/inheritance_temp.png)
