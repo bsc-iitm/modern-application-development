@@ -24,3 +24,6 @@ print(j2_template.render(data))
 
 ## Output
 - Available Devices are New laptop devices, New desktop devices, New printer devices, New card devices, New voice devices,
+
+## Reference
+https://jinja.palletsprojects.com/en/2.10.x/templates/

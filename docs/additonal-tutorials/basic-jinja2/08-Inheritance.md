@@ -70,3 +70,6 @@ app.run(host = "0.0.0.0", port = "8080")
 ## Output
 
 ![title](Images/inheritance_temp.png)
+
+## Reference
+https://jinja.palletsprojects.com/en/2.10.x/templates/
