@@ -1,4 +1,4 @@
-## Arithmetic Expression
+# Arithmetic Expression
 
 - Upto now we have seen variables assigned to string values. 
 - Jinja2 supports other data types too. 

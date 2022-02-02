@@ -1,4 +1,4 @@
-## Filters 
+# Filters 
 - Values of the variables can be modified by filters. 
 - Pipe symbol is used for Filters to seperate the variable. 
 - single variable can have multiple filters. 

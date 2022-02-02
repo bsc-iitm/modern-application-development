@@ -1,4 +1,4 @@
-## Templates 
+# Templates 
 - Templates are functions with detailed API. 
 - These templates can generste any kind of output. 
 - {{variable_name}} is the syntax for substituting value to a variable.

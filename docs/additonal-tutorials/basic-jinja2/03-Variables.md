@@ -1,4 +1,4 @@
-## Variables 
+# Variables 
 - Template variables are defined by dictionary concept in python. 
 - {{variable_name }} is the syntax used by the template to print the value.  
 - Dot operator is used to access attributes of a variable.
