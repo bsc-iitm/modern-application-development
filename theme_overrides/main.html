@@ -8,8 +8,8 @@
       <small>
         {% if git_info %}
         Authors(Git):
-          {%- for author in git_info.get('page_authors') -%}
-            {{ author.name }}
+          {%- for author in git_info.get('page_authors')|sort(reverse=True,attribute="contribution") -%}
+            {{ author.name }}({{author.contribution}}){{ ", " if not loop.last else "" }}
           {%- endfor -%}
         {% endif %}
       </small>
