@@ -4,20 +4,20 @@
 
 ## What's HTML Document
 - A web document is a text file usually with .html or .htm extension
-- It usually contains HTML, Hyper Text Markup Language. It's a simple language, that is used to do
+- It usually contains HTML, Hyper Text Markup Language. It's a simple language, that is used to do the following things:
     - Attach meaning to the content in the text
         - Are these paragraphs
         - Is this a table
         - Is this a list
-    - Strucutre the text
+    - Structure the text
         - Is this header
         - Is this style
     - Format them
         - make the text strong or bold
         - break the line
-    - Linking between the documente etc
+    - Linking between the documents, etc.
         - Add link to another document
-    - Adding or embeding media
+    - Adding or embedding media
         - Add an image
         - Embed a youtube iframe
 - All this is usually achived by using HTML tags
@@ -25,28 +25,28 @@
     - An opening tag
     - Closing tag
     - Content
-    - Attributes and values
+    - Attributes and values, 
 For example:
     `<p style="color: #8ebf42;"> This is my first paragraph </p>`
-Here the
+. Here the
     - `<p .....>` Is opening tag - says when the paragraph starts
     - `</p>` Is called closing tag - says when the paragraph ends
-    - `style` is attribute
+    - `style` is an attribute
     - `"color: #8ebf42;"` is the value of the attribute
 
-Some tags may not require an end tag. As they may not have any enclsoing content. Like  like break tag
+Some tags may not require an end tag. As they may not have any enclosing content. Like  like break tag
     - `<br/>` - breaks the line
 
 Also tags can be nested. It means you can use tags inside another tag content. For example bold tags inside paragraph tags. This gives immense power to format the document.
 
 
-Now that we know this. Let's create a simple HTML document. Let's call `my_first.html`
+Now that we know this. Let's create a simple HTML document. Let's call it: `my_first.html`
 
 ## Simple HTML Document
-- So open Gedit or any text editor. 
-- Create a file called "my_first.html" and save it to your computer. Remember where you saved it
+- Open Gedit or any text editor. 
+- Create a file called "my_first.html" and save it to your computer. Remember where you saved it.
 - You can add any text you want and save it.
-- In this example we will take three paragraphs from the book Pride and Prejudice
+- In this example we will take three paragraphs from the book Pride and Prejudice.
 
 ```text
 Pride and Prejudice, by Jane Austen.
@@ -71,10 +71,10 @@ Got from Project Gutenberg - https://www.gutenberg.org/files/1342/1342-h/1342-h.
 
 ## How to view it
 - Now open this file `my_first.html` in a browser. 
-- You can see the text but the format is all over the place
+- You can see the text but the format is all over the place.
 
 ## Next
-- That is because we have not added any stricutre or meaning to the text
-- Once we add some tags to define the structure, it should look better
-- We will do that next
+- That is because we have not added any strucutre or meaning to the text.
+- Once we add some tags to define the structure, it should look better.
+- We will do that next.
 
