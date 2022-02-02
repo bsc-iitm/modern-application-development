@@ -1,4 +1,4 @@
-## Comments 
+# Comments 
 - Comments are mostly used for documentation purpose. 
 - Comment lines are not executed by the python interpreter. 
 - Comments come in handy when multiple people work on the same template. 

@@ -1,4 +1,4 @@
-## Macros 
+# Macros 
 - Macros are comparable with functions in regular programming languages. 
 - They are represented as inline functions. Once macros are defined, the names of the macros can be inserted in places where they are required. 
 - In the following code, name of the macro is macro_name. 

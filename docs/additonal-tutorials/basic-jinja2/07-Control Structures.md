@@ -1,4 +1,4 @@
-## Control Structures
+# Control Structures
 
 - In Jinja2 loop (Iterative) statements and conditional (Branching) statements comes under the name of control structures, since they affect flow of a program. 
 - Control structures use blocks enclosed by {%   %} characters.

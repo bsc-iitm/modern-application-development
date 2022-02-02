@@ -1,4 +1,4 @@
-## Inheritance 
+# Inheritance 
 - The most important part of Jinja is template inheritance. 
 - Template inheritance permits you to build a base template that contains all the common items of your wish.
 - Next you can define blocks named child templates that can override the base template. 

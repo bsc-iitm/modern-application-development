@@ -1,4 +1,4 @@
-## Strings
+# Strings
 - Any values given with in double quotes are represented as string values. Eg. "welcome"
 - Below code is an example for assigning string values to the variables. 
 - Any words preceeded by '$' symbol is substituted with the same named variables. 
